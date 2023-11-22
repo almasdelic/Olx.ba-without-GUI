@@ -3,10 +3,10 @@ import mysql.connector
 import time
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="1234",
-  database = "moja_prva_aplikacija"
+  host="your local host",
+  user="your name",
+  password="your password",
+  database = "your database"
 )
 
 mycursor = mydb.cursor(dictionary=True)
